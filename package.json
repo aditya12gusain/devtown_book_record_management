@@ -1,0 +1,26 @@
+{
+  "name": "devtown_book_record_management",
+  "version": "1.0.0",
+  "description": "Book record management API for library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya12gusain/devtown_book_record_management.git"
+  },
+  "author": "Devtown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya12gusain/devtown_book_record_management/issues"
+  },
+  "homepage": "https://github.com/aditya12gusain/devtown_book_record_management#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
