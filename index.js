@@ -1,9 +1,15 @@
 const express = require("express");
+// routes
+const UserRoute = require("./routes/user-route");
+const BookRoute = require("./routes/book-route");
+
 const app = express(); // initialize express
 const PORT = 4000; // port number
 
 // add json middleware
 app.use(express.json());
+app.use("/users", UserRoute);
+app.use("/books", BookRoute);
 
 app.get("/", (req, res) => {
   res.status(200).json({
