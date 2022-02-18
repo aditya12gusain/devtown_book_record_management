@@ -9,7 +9,7 @@ This is a book record management API Backend for the management of library recor
 
 ## /users
 
-POST: Create a new user
+POST: Create a new user ✅
 GET: GET all the users ✅
 
 ## /users/{id}
@@ -17,12 +17,12 @@ GET: GET all the users ✅
 example: /users/1, /users/2
 
 GET: GET a user by id ✅
-PUT: Update a user by id
+PUT: Update a user by id ✅
 DELETE: Delete a user by id ✅
 
 ## /users/subscription-details/{id}
 
-GET: GET user subscription details 1. Date of subscription 2. Valid till 3. Fine if any
+GET: GET user subscription details 1. Date of subscription 2. Valid till 3. Fine if any ✅
 
 ## /books
 

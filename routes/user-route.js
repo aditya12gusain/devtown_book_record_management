@@ -4,6 +4,9 @@ const {
   getAllUsers,
   getSingleUserById,
   deleteUser,
+  updateUserById,
+  createNewUser,
+  getSubDetailsById,
 } = require("../controllers/user-controller");
 
 /**
@@ -32,5 +35,33 @@ router.get("/:id", getSingleUserById);
  * Parameters: id
  */
 router.delete("/:id", deleteUser);
+
+/**
+ * Route: /users/:id
+ * TYPE: PUT
+ * Description: Update a user details by id
+ * Access: Public
+ * Parameters: id
+ */
+router.put("/:id", updateUserById);
+
+/**
+ * Route: /users
+ * TYPE: POST
+ * Description: Create/Add new user
+ * Access: Public
+ * Parameters: none
+ * Data: id, name, surname, email, subscriptionType, subscriptionDate
+ */
+router.post("/", createNewUser);
+
+/**
+ * Route: /users/subscription-details/:id
+ * TYPE: GET
+ * Description: Get specific users subscription details
+ * Access: Public
+ * Parameters: id
+ */
+router.get("/subscription-details/:id", getSubDetailsById);
 
 module.exports = router;
