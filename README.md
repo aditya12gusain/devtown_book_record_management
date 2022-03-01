@@ -1,9 +1,5 @@
 # devtown_book_record_management
 
-# All mongodb realted stuff
-
-This is our new branch: mongodb-update
-
 Book record management for book stores and libraries
 This is a book record management API Backend for the management of library records.
 
