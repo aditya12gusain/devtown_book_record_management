@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/aditya12gusain/devtown_book_record_management#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
